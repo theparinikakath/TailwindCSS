@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+    @apply bg-purple-500 w-1/2 h-56 text-white;
+}

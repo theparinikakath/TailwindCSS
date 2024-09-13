@@ -1,0 +1,10 @@
+1. npm tailwind install
+2. npm i vite
+3. npx tailwind init -p
+4. tailwind.config.js -> change content["*"]
+5. postcss.config.js-> change to postcss.config.cjs
+6. style.css-> add directives:  @tailwind base;
+                                @tailwind components;
+                                @tailwind utilities;
+7. package.json -> {scripts - "start":"vite"}
+8. link css with html with link and href
